@@ -1,40 +1,36 @@
-import { createAsyncThunk, createSlice} from "@reduxjs/toolkit";
+import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 
-const url = 'https://disease.sh/v3/covid-19/countries'
+const url = 'https://disease.sh/v3/covid-19/countries';
 
 export const getCountries = createAsyncThunk('countries/fetchCountries', async () => {
-    const resolve = await fetch(url)
-    const countries = await resolve.json();
-    console.log(countries)
-    return countries; 
+  const resolve = await fetch(url);
+  const countries = await resolve.json();
+  console.log(countries);
+  return countries;
 });
 
 const DataSlice = createSlice({
-    name: 'countries',
-    initialState: {
-        countries: [],
-        status: null,
-    },
+  name: 'countries',
+  initialState: {
+    countries: [],
+    status: null,
+  },
 
-    reducers: {
+  reducers: {
 
-    },
+  },
 
-    extraReducers(builder) {
-        builder.addCase(getCountries.pending, (state) => {
-            const isPending = state;
-            isPending.status = 'loading';
-        });
-        builder.addCase(getCountries.fulfilled, (state, action) => {
-            const fulfilled = state;
-            fulfilled.status = 'fulfilled'
-            fulfilled.countries = action.payload
-        })
-
-
-
-
-    },
+  extraReducers(builder) {
+    builder.addCase(getCountries.pending, (state) => {
+      const isPending = state;
+      isPending.status = 'loading';
+    });
+    builder.addCase(getCountries.fulfilled, (state, action) => {
+      const fulfilled = state;
+      fulfilled.status = 'fulfilled';
+      fulfilled.countries = action.payload;
+    });
+  },
 
 });
 export default DataSlice.reducer;
