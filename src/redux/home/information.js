@@ -1,11 +1,10 @@
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 
-const url = 'https://disease.sh/v3/covid-19/countries';
+const url = 'https://disease.sh/v3/covid-19/continents';
 
 export const getCountries = createAsyncThunk('countries/fetchCountries', async () => {
   const resolve = await fetch(url);
   const countries = await resolve.json();
-  console.log(countries);
   return countries;
 });
 
@@ -16,9 +15,7 @@ const DataSlice = createSlice({
     status: null,
   },
 
-  reducers: {
-
-  },
+  reducers: {},
 
   extraReducers(builder) {
     builder.addCase(getCountries.pending, (state) => {
@@ -31,6 +28,5 @@ const DataSlice = createSlice({
       fulfilled.countries = action.payload;
     });
   },
-
 });
 export default DataSlice.reducer;
