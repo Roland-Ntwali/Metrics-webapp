@@ -153,9 +153,9 @@ Example command:
 
 ### Deployment
 
-- [link to the project](Coming soon ...)
+- [link to the project](https://metrics-webapp-iwdl.onrender.com)
 
-You can deploy this project using: (netlify)[https://app.netlify.com/login]
+You can deploy this project using: (Render)[https://render.com/]
 - Run `npm start` in an intergrated terminal in order to start a local live server.
 <!--
 Example:
