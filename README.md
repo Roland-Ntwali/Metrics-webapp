@@ -154,8 +154,6 @@ Example command:
 
 ### Deployment
 
-- [link to the project](https://metrics-webapp-iwdl.onrender.com)
-
 You can deploy this project using: (Render)[https://render.com/]
 - Run `npm start` in an intergrated terminal in order to start a local live server.
 <!--
@@ -204,9 +202,7 @@ Feel free to give it a start
 
 ## 🙏 Acknowledgements <a name="acknowledgments">
 
-- I Would like to thank Microverse for the Project
-  - I would like to thank (Nelson Sakwa)[https://www.behance.net/sakwadesignstudio] for his magical design
-    - My coding partners
+I'd like to thank Microverse and [Nelson Sakwa on Behance ](https://www.behance.net/sakwadesignstudio)for the amazing design template.
 
 <!-- FAQ (optional) -->
 
