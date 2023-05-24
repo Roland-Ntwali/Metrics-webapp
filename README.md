@@ -65,7 +65,7 @@ This is a react project that renders the COVID-19 updates from different countri
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Live Demo Link](https://metrics-webapp-iwdl.onrender.com)
-- [Demo video Link](Coming soon ...)
+- [Video-Link](https://www.loom.com/share/4d7feaac0b474cce828dff6f5ac92c07)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
