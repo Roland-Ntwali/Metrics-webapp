@@ -203,9 +203,9 @@ Feel free to give it a start
 
 ## 🙏 Acknowledgements <a name="acknowledgments">
 
-- Would like to thank Microverse for the Project
-- I would like to thank (Nelson Sakwa)[https://www.behance.net/sakwadesignstudio] for his magical design
-- My coding partners
+- I Would like to thank Microverse for the Project
+  - I would like to thank (Nelson Sakwa)[https://www.behance.net/sakwadesignstudio] for his magical design
+    - My coding partners
 
 <!-- FAQ (optional) -->
 
