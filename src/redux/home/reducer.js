@@ -1,32 +1,35 @@
+// Action types
 const FETCHDATA = 'metrics-webapp/home/reducer/FETCHDATA';
 const FETCHDATAERROR = 'metrics-webapp/home/reducer/FETCHDATAERROR';
 const FETCHCOUNTRYDATA = 'metrics-webapp/home/reducer/FETCHCOUNTRYDATA';
 const SORT = 'metrics-webapp/home/reducer/SORT';
 const DETAILSTART = 'metrics-webapp/home/reducer/DETAILSTART';
 
-// Actions
+// Action creators
 export const fetchdata = (payload) => ({
   type: FETCHDATA,
   payload,
 });
+
 export const fetchdataerror = () => ({
   type: FETCHDATAERROR,
 });
+
 export const fetchcountrydata = (payload) => ({
   type: FETCHCOUNTRYDATA,
   payload,
 });
+
 export const sort = (payload) => ({
   type: SORT,
   payload,
 });
+
 export const detailStart = () => ({
   type: DETAILSTART,
-
 });
 
-// reducer
-
+// Reducer
 const initState = {
   countries: [],
   loading: true,
@@ -34,7 +37,8 @@ const initState = {
   view: [],
   back: false,
 };
-const DataReducer = (state = initState, action) => {
+
+const dataReducer = (state = initState, action) => {
   switch (action.type) {
     case FETCHDATA:
       return {
@@ -71,4 +75,4 @@ const DataReducer = (state = initState, action) => {
   }
 };
 
-export default DataReducer;
+export default dataReducer;

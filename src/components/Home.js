@@ -8,7 +8,6 @@ import {
 } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { getCountries } from '../redux/home/information';
-/* eslint-disable */
 
 const Home = () => {
   const dispatch = useDispatch();
@@ -30,16 +29,16 @@ const Home = () => {
       ) : (
         <>
           <div className="search">
-            <div className='search_element'>
-            <h1 className="live_preview">Live preview</h1>
-            <input
-              type="text"
-              value={search}
-              onChange={(e) => setSearch(e.target.value)}
-              placeholder="search"
-              className="input"
-            />
-            <FontAwesomeIcon icon={faSearch} className="search_icon" />
+            <div className="search_element">
+              <h1 className="live_preview">Live preview</h1>
+              <input
+                type="text"
+                value={search}
+                onChange={(e) => setSearch(e.target.value)}
+                placeholder="search"
+                className="input"
+              />
+              <FontAwesomeIcon icon={faSearch} className="search_icon" />
             </div>
           </div>
           <div className="display_flex">
