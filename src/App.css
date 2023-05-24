@@ -11,13 +11,14 @@
   margin: 2em 0.5em;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   color: #fff;
 }
 
 #arrow-left {
   color: #fff;
   font-size: 3em;
+  padding-top: 20px;
 }
 
 .icons {

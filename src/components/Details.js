@@ -1,4 +1,6 @@
-import { useLocation } from 'react-router-dom';
+import { useLocation, Link } from 'react-router-dom';
+import { faCircleArrowLeft } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Details = () => {
   const location = useLocation();
@@ -6,6 +8,12 @@ const Details = () => {
 
   return (
     <div className="details">
+      <nav className="nav_bar">
+        <Link to="/">
+          <FontAwesomeIcon icon={faCircleArrowLeft} id="arrow-left" />
+        </Link>
+      </nav>
+
       <div className="main">
         <h1>{state.country}</h1>
         <p>{state.updated}</p>
