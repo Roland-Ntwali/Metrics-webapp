@@ -1,0 +1,254 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Check if details page renders correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="details"
+      >
+        <nav
+          class="nav_bar"
+        >
+          <a
+            href="/"
+          >
+            <svg
+              aria-hidden="true"
+              class="svg-inline--fa fa-circle-arrow-left "
+              data-icon="circle-arrow-left"
+              data-prefix="fas"
+              focusable="false"
+              id="arrow-left"
+              role="img"
+              viewBox="0 0 512 512"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M512 256A256 256 0 1 0 0 256a256 256 0 1 0 512 0zM231 127c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-71 71L376 232c13.3 0 24 10.7 24 24s-10.7 24-24 24l-182.1 0 71 71c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0L119 273c-9.4-9.4-9.4-24.6 0-33.9L231 127z"
+                fill="currentColor"
+              />
+            </svg>
+          </a>
+        </nav>
+        <div
+          class="main"
+        >
+          <h1>
+            Ghana
+          </h1>
+          <p />
+        </div>
+        <div
+          class="self_display"
+        >
+          <h1>
+            Live information
+          </h1>
+          <p>
+            Continent
+             
+            <span>
+              Africa
+            </span>
+          </p>
+          <p>
+            Cases
+             
+            <span>
+              16
+            </span>
+          </p>
+          <p>
+            Todays Case
+             
+            <span>
+              123
+            </span>
+          </p>
+          <p>
+            Death
+             
+            <span />
+          </p>
+          <p>
+            Todays Death
+             
+            <span>
+              44
+            </span>
+          </p>
+          <p>
+            Recovered
+             
+            <span>
+              23
+            </span>
+          </p>
+          <p>
+            Todays Recovered
+             
+            <span>
+              34
+            </span>
+          </p>
+          <p>
+            Tests
+             
+            <span />
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="details"
+    >
+      <nav
+        class="nav_bar"
+      >
+        <a
+          href="/"
+        >
+          <svg
+            aria-hidden="true"
+            class="svg-inline--fa fa-circle-arrow-left "
+            data-icon="circle-arrow-left"
+            data-prefix="fas"
+            focusable="false"
+            id="arrow-left"
+            role="img"
+            viewBox="0 0 512 512"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M512 256A256 256 0 1 0 0 256a256 256 0 1 0 512 0zM231 127c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-71 71L376 232c13.3 0 24 10.7 24 24s-10.7 24-24 24l-182.1 0 71 71c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0L119 273c-9.4-9.4-9.4-24.6 0-33.9L231 127z"
+              fill="currentColor"
+            />
+          </svg>
+        </a>
+      </nav>
+      <div
+        class="main"
+      >
+        <h1>
+          Ghana
+        </h1>
+        <p />
+      </div>
+      <div
+        class="self_display"
+      >
+        <h1>
+          Live information
+        </h1>
+        <p>
+          Continent
+           
+          <span>
+            Africa
+          </span>
+        </p>
+        <p>
+          Cases
+           
+          <span>
+            16
+          </span>
+        </p>
+        <p>
+          Todays Case
+           
+          <span>
+            123
+          </span>
+        </p>
+        <p>
+          Death
+           
+          <span />
+        </p>
+        <p>
+          Todays Death
+           
+          <span>
+            44
+          </span>
+        </p>
+        <p>
+          Recovered
+           
+          <span>
+            23
+          </span>
+        </p>
+        <p>
+          Todays Recovered
+           
+          <span>
+            34
+          </span>
+        </p>
+        <p>
+          Tests
+           
+          <span />
+        </p>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

@@ -1,38 +1,127 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav_bar {
+  margin: 2em 0.5em;
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  color: #fff;
+}
+
+#arrow-left {
+  color: #fff;
+  font-size: 3em;
+  padding-top: 20px;
+}
+
+.icons {
+  display: flex;
+  gap: 1em;
+}
+
+.search {
+  text-align: center;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.search_element {
+  display: flex;
+  padding: 10px;
+}
+
+.search_icon {
+  margin-top: 5px;
+  margin-left: -20px;
+}
+
+.input {
+  padding: 3px;
+}
+
+.live_preview {
+  color: #fff;
+  background-color: rgb(126, 1, 95);
+  font-size: 15px;
+  margin-right: 50px;
+}
+
+.display_flex {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  place-items: center;
+  gap: 0.1em;
+}
+
+.country_display {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 4em;
+  align-items: flex-end;
+  color: #fff;
+  width: 100%;
+  height: 10em;
+}
+
+.update_countries {
+  padding-right: 1em;
+  padding-bottom: 1em;
+}
+
+.country_display:nth-child(odd) {
+  background-color: rgb(142, 5, 110);
+}
+
+.country_display:nth-child(even) {
+  background-color: rgb(142, 5, 110);
+}
+
+.main {
+  float: inline-start;
+  padding: 3em;
+  color: #fff;
+}
+
+.details {
+  background-color: rgb(142, 5, 110);
+}
+
+.self_display {
+  margin-top: 1rem;
+  height: 90vh;
+  align-items: center;
+}
+
+.self_display h1 {
+  color: #fff;
+  text-align: center;
+  background-color: rgb(152, 2, 102);
+  font-size: 15px;
+}
+
+.arrow-right {
+  color: rgb(127, 203, 21);
+  padding: 10px;
+}
+
+.self_display p {
+  padding: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   color: white;
+  font-size: 20px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.self_display p:nth-child(odd) {
+  background-color: rgb(152, 2, 102);
 }
